@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stories made with Kav</title>
+<meta name="description" content="Graphic stories made by people using Kav, an AI co-writer for graphic novels.">
+<style>
+:root{--bg:#f6f1e7;--ink:#2a2118;--soft:#7a6a58;--line:#e2d8c6;--accent:#b5562b;--card:#fffaf0}
+@media (prefers-color-scheme:dark){:root{--bg:#17130f;--ink:#f1e9da;--soft:#a89a86;--line:#2e261d;--accent:#e08a5b;--card:#1f1a14}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 Georgia,'Iowan Old Style','Times New Roman',serif}
+header{max-width:720px;margin:0 auto;padding:56px 20px 22px}
+h1{font-size:clamp(32px,6vw,46px);line-height:1.08;margin:0 0 12px;text-wrap:balance}
+header p{margin:0;color:var(--soft)}
+a{color:var(--accent)}
+main{max-width:720px;margin:0 auto;padding:18px 20px 40px;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:22px}
+.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;text-decoration:none;color:inherit}
+.card:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.card img{display:block;width:100%;height:auto;aspect-ratio:1200/1699;object-fit:cover}
+.card div{padding:14px 16px 16px}
+.card h2{font-size:20px;line-height:1.2;margin:0 0 4px}
+.card p{margin:0;font-size:15px;color:var(--soft)}
+footer{max-width:720px;margin:0 auto;padding:0 20px 70px;color:var(--soft);font-size:15px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Stories made with Kav</h1>
+  <p>Graphic stories by people using <a href="https://github.com/oraboy/kav">Kav</a>, an AI co-writer for graphic novels. Each belongs to its author.</p>
+</header>
+<main>
+  <a class="card" href="the-ant-who-walked-alone/">
+    <img src="the-ant-who-walked-alone/pages/page-01.jpg" width="1200" height="1699" alt="Cover of The Ant Who Walked Alone: a small ant standing on a root at sunset">
+    <div><h2>The Ant Who Walked Alone</h2><p>Roi Werner · English · 17 pages</p></div>
+  </a>
+</main>
+<footer>
+  <p>Made something with Kav? <a href="https://github.com/oraboy/kav-samples#add-your-story">Add your story</a>.</p>
+</footer>
+</body>
+</html>
