@@ -10,18 +10,19 @@
 @media (prefers-color-scheme:dark){:root{--bg:#17130f;--ink:#f1e9da;--soft:#a89a86;--line:#2e261d;--accent:#e08a5b;--card:#1f1a14}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 Georgia,'Iowan Old Style','Times New Roman',serif}
-header{max-width:720px;margin:0 auto;padding:56px 20px 22px}
+header{max-width:1040px;margin:0 auto;padding:56px 20px 22px}
 h1{font-size:clamp(32px,6vw,46px);line-height:1.08;margin:0 0 12px;text-wrap:balance}
 header p{margin:0;color:var(--soft)}
 a{color:var(--accent)}
-main{max-width:720px;margin:0 auto;padding:18px 20px 40px;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:22px}
+main{max-width:1040px;margin:0 auto;padding:18px 20px 40px;display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:22px}
 .card{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;text-decoration:none;color:inherit}
 .card:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
-.card img{display:block;width:100%;height:auto;aspect-ratio:1200/1699;object-fit:cover}
+.card img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover}
+.card p.line{color:var(--ink);margin-top:8px}
 .card div{padding:14px 16px 16px}
 .card h2{font-size:20px;line-height:1.2;margin:0 0 4px}
 .card p{margin:0;font-size:15px;color:var(--soft)}
-footer{max-width:720px;margin:0 auto;padding:0 20px 70px;color:var(--soft);font-size:15px}
+footer{max-width:1040px;margin:0 auto;padding:0 20px 70px;color:var(--soft);font-size:15px}
 </style>
 </head>
 <body>
@@ -31,8 +32,20 @@ footer{max-width:720px;margin:0 auto;padding:0 20px 70px;color:var(--soft);font-
 </header>
 <main>
   <a class="card" href="the-ant-who-walked-alone/">
-    <img src="the-ant-who-walked-alone/pages/page-01.jpg" width="1200" height="1699" alt="Cover of The Ant Who Walked Alone: a small ant standing on a root at sunset">
-    <div><h2>The Ant Who Walked Alone</h2><p>Roi Werner · English · 17 pages</p></div>
+    <img src="covers/sample-ant-who-walked-alone.jpg" width="800" height="1000" alt="Cover of The Ant Who Walked Alone: a small ant standing on a root at sunset">
+    <div><h2>The Ant Who Walked Alone</h2><p>Roi Werner · English · 17 pages</p><p class="line">A story about unexpected lessons.</p></div>
+  </a>
+  <a class="card" href="https://claude.ai/code/artifact/f69c71ef-8b2e-4fcb-96ab-f6d517cffbc9">
+    <img src="covers/sample-berko-olive.jpg" width="800" height="1000" loading="lazy" alt="Berkovitz and Olive: a border collie chewing a bone in a sunny living room">
+    <div><h2>Berkovitz and Olive</h2><p>Oren Raboy · Hebrew · 5 chapters</p><p class="line" dir="rtl" lang="he">סיפור אהבה תל-אביבי בזמן מלחמת איראן</p></div>
+  </a>
+  <a class="card" href="https://last-light-oren-review.oraboy.chatgpt.site/">
+    <img src="covers/sample-last-light.jpg" width="800" height="1000" loading="lazy" alt="The Last Light: three rows of comic panels set in a lighthouse">
+    <div><h2>The Last Light</h2><p>Oren Raboy · English · 6 chapters</p><p class="line">A wild story about a lighthouse, a girl and a lost boy.</p></div>
+  </a>
+  <a class="card" href="https://if-i-had-cats.oraboy.chatgpt.site">
+    <img src="covers/sample-if-i-had-cats.jpg" width="800" height="1000" loading="lazy" alt="If I Had Cats: a man crouching between two cats outside a cafe">
+    <div><h2>If I Had Cats</h2><p>Oren Raboy · Hebrew · an ongoing series</p><p class="line" dir="rtl" lang="he">פיד מתגלגל של הצעות לשמות של חתולים עירוניים. למי שצריך 🐈🐈‍⬛</p></div>
   </a>
 </main>
 <footer>
