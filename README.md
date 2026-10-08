@@ -5,6 +5,7 @@ Graphic stories by people using [Kav](https://github.com/oraboy/kav), an AI co-w
 | Story | Author | Read |
 |---|---|---|
 | **The Ant Who Walked Alone** · English · 17 pages | Roi Werner | [Reader](https://oraboy.github.io/kav-samples/the-ant-who-walked-alone/) · [PDF](the-ant-who-walked-alone/the-ant-who-walked-alone.pdf) |
+| **Truth Is** · English · 11 pages | Roi Werner | [Reader](https://oraboy.github.io/kav-samples/truth-is/) · [PDF](truth-is/truth-is.pdf) |
 | **Berkovitz and Olive** · Hebrew · 5 chapters | Nero Yobar | [Reader](https://claude.ai/code/artifact/f69c71ef-8b2e-4fcb-96ab-f6d517cffbc9) |
 | **The Last Light** · English · 6 chapters | Nero Yobar | [Reader](https://last-light-oren-review.oraboy.chatgpt.site/) |
 | **If I Had Cats** · Hebrew · an ongoing series | Nero Yobar | [Reader](https://if-i-had-cats.oraboy.chatgpt.site) |
